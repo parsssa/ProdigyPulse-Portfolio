@@ -19,11 +19,7 @@ body {
  align-items: center;
  height: 100%;
  width: 100%;
- background: rgb(122,170,173);
- background: -moz-linear-gradient(90deg, rgba(122,170,173,1) 0%, rgba(82,90,97,1) 37%, rgba(136,145,147,1) 100%);
- background: -webkit-linear-gradient(90deg, rgba(122,170,173,1) 0%, rgba(82,90,97,1) 37%, rgba(136,145,147,1) 100%);
- background: linear-gradient(90deg, rgba(122,170,173,1) 0%, rgba(82,90,97,1) 37%, rgba(136,145,147,1) 100%);
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7aaaad",endColorstr="#889193",GradientType=1);
+ background-color: #0E1D3A;
 }
 
 main {
