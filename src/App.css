@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+/* contains reusable variables */
+:root {
+ --body-font: 'Roboto Mono';
+ --body-style: normal;
+ --body-weight: 700;
+ --body-size: 18px;
+ --body-line-height: 24px;
+ --body-letter-spacing: 0.02em;
+ --body-color: #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+html,
+body {
+ /* overflow-x: hidden; */
+ font-family: 'Source Code Pro', monospace;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+ background: rgb(122,170,173);
+ background: -moz-linear-gradient(90deg, rgba(122,170,173,1) 0%, rgba(82,90,97,1) 37%, rgba(136,145,147,1) 100%);
+ background: -webkit-linear-gradient(90deg, rgba(122,170,173,1) 0%, rgba(82,90,97,1) 37%, rgba(136,145,147,1) 100%);
+ background: linear-gradient(90deg, rgba(122,170,173,1) 0%, rgba(82,90,97,1) 37%, rgba(136,145,147,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7aaaad",endColorstr="#889193",GradientType=1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+main {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

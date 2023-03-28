@@ -1,0 +1,8 @@
+.transparent_rectangle {
+ position: absolute;
+ width: 805px;
+ height: 141px;
+ left: 317px;
+ top: 13px;
+ background: rgba(255, 255, 255, 0.8);
+}
