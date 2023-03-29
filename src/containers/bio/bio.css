@@ -37,6 +37,9 @@ width: 80%;
 
 
 @media (max-width: 768px) {
+  .bio-area{
+    margin-bottom: 10rem;
+  }
  .bio-box {
    flex-direction: column;
    align-items: center;

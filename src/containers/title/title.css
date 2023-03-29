@@ -1,15 +1,3 @@
-/* .Transparent_rectangle {
- position: absolute;
- display: flex;
- justify-content: center;
- align-items: center;
- width: 805px;
- height: 141px;
- left: 317px;
- top: 13px;
- background: rgba(255, 255, 255, 0.8);
-} */
-
 
 .container {
  display: flex;
@@ -63,13 +51,17 @@
  color: #000000;
 }
 
-@media only screen and (max-width: 768px) {
- .title-container img {
-   max-width: 100%;
-   height: auto;
- }
-
- .title-container h1 {
-   font-size: 32px;
- }
+@media (max-width: 1110) {
+  .container{
+    margin-bottom: 1rem;
+  }
+    .title-container img {
+      max-width: 100%;
+      height: auto;
+    }
+   
+    .title-container h1 {
+      font-size: 32px;
+    }
 }
+

@@ -41,6 +41,9 @@
 
 
 @media (max-width: 768px) {
+  .projects-area{
+    margin-bottom: 10rem;
+  }
  .projects-box {
    flex-direction: column;
    align-items: center;
