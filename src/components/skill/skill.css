@@ -1,0 +1,25 @@
+.skill-box{
+ margin: 3rem 3rem;
+ width: 15rem;
+ height: auto;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+}
+.skill-box-image{
+ height: 20%;
+ width: 70%;
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: auto;
+}
+
+.skill-box-image img{
+ width: 100%;
+ height: auto;
+}
