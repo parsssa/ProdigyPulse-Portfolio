@@ -23,3 +23,13 @@
  width: 100%;
  height: auto;
 }
+
+@media (max-width: 768px) {
+    .skill-box{
+        width: 10rem;
+        height: auto;
+        margin: 2rem 1rem;
+    }
+  }
+  
+  
