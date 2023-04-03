@@ -1,15 +1,14 @@
 import React from 'react';
 import './skill.css';
-import {Telegram} from '../index.js';
 
 
-const Skill = () => {
+const Skill = ({img, text}) => {
   return (
     <div className='skill-box'>
       <div className='skill-box-image'>
-        <img src={Telegram} alt="" />
+        <img src={img} alt={text} />
       </div>
-      <div className='skill-box-text'><h3>Skill</h3></div>
+      <div className='skill-box-text'><h3>{text}</h3></div>
       </div>
   )
 }
