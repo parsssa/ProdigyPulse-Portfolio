@@ -3,7 +3,7 @@ import './projects.css';
 import projectPhoto from '../../assets/botProject1.png';
 
 
-const Bio = () => {
+const Projects = () => {
   return (
     <div className='projects-area'>
       <h1>Projects</h1>
@@ -16,4 +16,4 @@ const Bio = () => {
   )
 }
 
-export default Bio
+export default Projects

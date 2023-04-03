@@ -1,10 +1,11 @@
 import React from 'react';
 import './skillset.css';
 import { Skill } from '../../components/index.js';
-import {Telegram,figma,MS,FrontEnd,python,Maven,google,java,JavaFx,translation,react} from '../index.js';
+import {Telegram,Git,figma,MS,FrontEnd,python,Maven,google,java,JavaFx,translation,react} from '../index.js';
 
 const skillsArray = [
   { img: react, text: 'React' },
+  { img: Git, text: 'Git' },
   { img: JavaFx, text: 'JavaFx' },
   { img: FrontEnd, text: 'FrontEnd' },
   { img: figma, text: 'Figma' },

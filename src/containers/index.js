@@ -10,6 +10,7 @@ import java from '../assets/java.png';
 import JavaFx from '../assets/JavaFX.png';
 import translation from '../assets/translation.png';
 import react from '../assets/react.png';
+import Git from '../assets/git.jpg'
 
 export {
   Telegram,
@@ -24,6 +25,7 @@ export {
   JavaFx,
   translation,
   react,
+  Git
 };
 
 export { default as Bio } from './bio/Bio';
