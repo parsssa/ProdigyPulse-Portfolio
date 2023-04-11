@@ -3,6 +3,7 @@ import { Connection_item, Skill, Transparent_rectangle } from './components';
 import { Bio, Connections, Footer, Navbar, Projects, Quests, Skillset, Title } from './containers';
 import './app.css';
 
+
 const App = () => {
   return (
 

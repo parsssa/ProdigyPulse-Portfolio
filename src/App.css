@@ -12,16 +12,15 @@
 
 html,
 body {
- /* overflow-x: hidden; */
- font-family: 'Source Code Pro', monospace;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         font-family: 'Source Code Pro', monospace;
  flex-direction: column;
  justify-content: flex-start;
  align-items: center;
+ margin-left: 0;
  height: 100%;
  width: 100%;
- background-color: #0E1D3A;
 }
 
-main {
-
-}

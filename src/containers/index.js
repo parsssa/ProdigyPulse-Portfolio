@@ -12,6 +12,13 @@ import translation from '../assets/translation.png';
 import react from '../assets/react.png';
 import Git from '../assets/git.jpg'
 
+import LinkedIn from '../assets/linkedin.png';
+import Email from '../assets/email.png';
+
+import TehranLandscape from '../assets/TehranLandscape.JPG';
+
+
+
 export {
   Telegram,
   figma,
@@ -26,6 +33,15 @@ export {
   translation,
   react,
   Git
+};
+
+export {
+  LinkedIn,
+  Email
+};
+
+export{
+  TehranLandscape
 };
 
 export { default as Bio } from './bio/Bio';
