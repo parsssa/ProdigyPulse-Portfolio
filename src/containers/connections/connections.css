@@ -8,7 +8,15 @@
    
    .connections-area h1{
     color: white;
-   }
+    transition: 700ms ease;
+    font-variation-settings: "wght";
+  }
+  
+  .connections-area h1:hover{
+      font-variation-settings: "wght" 582; 
+      letter-spacing: 2px;
+  }
+  
    
    .connections-box {
     background-color: rgba(255, 255, 255, 0.5);

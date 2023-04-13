@@ -65,3 +65,19 @@
         letter-spacing: 0.03rem;
     }
   }
+
+  @media (max-width: 746px) {
+    .footer-area-bottom{
+        height: 13%;
+    }
+    .footer-area-bottom p{
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+    .footer-link {   
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 2rem;
+        letter-spacing: 0.03rem;
+    }
+  }

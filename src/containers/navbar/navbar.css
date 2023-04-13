@@ -67,7 +67,7 @@
   .navbar {
     position: static;
     margin-top: 20rem;
-    height: fit-content; 
+    height: 10rem; 
     margin-bottom: 8rem;
   }
   .navbar-menu{
@@ -81,6 +81,15 @@
   }
 
   .navbar-item{
-    margin-right: 10%;
+    margin-right: 15%;
+  }
+
+  .navbar-item:hover {
+    background-color: transparent;
+   transform: scale(1.1);
+  }
+
+  .navbar-link{
+    background-color:rgb(37, 150, 190, 0.2);
   }
 }
