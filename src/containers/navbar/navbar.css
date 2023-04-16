@@ -57,6 +57,7 @@
  color: #000000;
  transition: color 0.2s ease-in-out;
  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ cursor: pointer;
 }
 
 .navbar-link:hover {

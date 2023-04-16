@@ -32,8 +32,11 @@ width: 80%;
 .bio-box p{
  margin-left: 0;
  margin-right: 1rem;
+ margin-top: 2rem;
  width: 60%;
  height: auto;
+ font-size: 20px;
+ text-align: justify;
 }
 
 .bio-box img {

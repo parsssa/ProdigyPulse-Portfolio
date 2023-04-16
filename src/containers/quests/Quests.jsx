@@ -2,13 +2,15 @@ import React from 'react';
 import { useState } from 'react';
 import './quests.css';
 import youtubeQuest from '../../assets/oldYoutubeChannel.png';
+import { Element } from 'react-scroll';
+
 
 // an array that contains img+description for each quest
 const data = [
   {
     title: "Teenage YouTube Channel",
     image: youtubeQuest,
-    description: "Back in March 2020, completely stuck at home and quarantined, I decided to try my luck uploading content on Youtube. This content was what inspired me at the time, and despite the limited tools and knowledge I had, I look back at it and smile. One video even reached a milestone of 2k views! Unfortunately, after my last year of highschool I no longer found the time to upload and the growth of the channel got halted. I plan on uploading another video soon, this way I can learn some video-editing magic and perhaps finish the channel in style",
+    description: "Back in March 2020, completely stuck at home and quarantined, I decided to try my luck uploading content on Youtube. This content was what inspired me at the time, and despite the limited tools and knowledge I had, I look back at it and smile. One video almost reached 2 thousand views! Unfortunately, after my last year of highschool I no longer found the time to upload and the growth of the channel slowed to a stop. I plan on uploading another video soon, this way I can learn some video-editing magic and perhaps end the channel in style",
   },
   {
     title: "quest 2",
@@ -39,6 +41,7 @@ const Quests = () => {
   };
 
   return (
+    <Element name="quests">
     <div className="quests-bigger-area">
       <h1>Quests</h1>
       <div className="quests-area">
@@ -51,6 +54,7 @@ const Quests = () => {
         <button className="quests-nav-arrow right-arrow" onClick={handleNextquest}></button>
       </div>
     </div>
+    </Element>
   );
 };
 

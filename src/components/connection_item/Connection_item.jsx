@@ -8,7 +8,7 @@ const Connection_item = ({img, text}) => {
       <div className='connection_item-box-image'>
         <img src={img} alt={text} />
       </div>
-      <div className='connection_item-box-text'><h3>{text}</h3></div>
+      <div className='connection_item-box-text'><p>{text}</p></div>
       </div>
   )
 }

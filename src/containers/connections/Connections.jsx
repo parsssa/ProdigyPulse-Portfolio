@@ -2,16 +2,19 @@ import React from 'react';
 import './connections.css';
 import { Connection_item } from '../../components';
 import { Telegram,LinkedIn,Email } from '../index.js';
+import { Element } from 'react-scroll';
+
 
 const connectionsArray = [
-  { img: LinkedIn, text: 'LinkedIn' },
-  { img: Email, text: 'Email' },
-  { img: Telegram, text: 'Telegram' },
+  { img: LinkedIn, text: 'Parsa Bagheri' },
+  { img: Email, text: 'parsssa13@gmail.com' },
+  { img: Telegram, text: '@parsssa13' },
 ];
 
 
 const Connections = () => {
   return (
+    <Element name="connections">
     <div className='connections-area'>
       <h1>Connections</h1>
       <div className='connections-box'>
@@ -20,6 +23,7 @@ const Connections = () => {
         ))}
       </div>
     </div>
+    </Element>
   )
 }
 

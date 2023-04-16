@@ -48,6 +48,7 @@
     color: #000000;
     transition: color 0.2s ease-in-out;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
    }
 
 @media (max-width: 1100px) {
@@ -68,7 +69,7 @@
 
   @media (max-width: 746px) {
     .footer-area-bottom{
-        height: 13%;
+        height: fit-content;
     }
     .footer-area-bottom p{
         font-size: 12px;

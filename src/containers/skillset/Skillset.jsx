@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import './skillset.css';
 import { Skill } from '../../components/index.js';
 import {America, Italy, Iran, Telegram,Git,figma,MS,FrontEnd,python,Maven,google,java,JavaFx,translation, content, youtube, react} from '../index.js';
@@ -25,6 +26,7 @@ const skillsArray = [
 
 const Skillset = () => {
   return (
+    <Element name="skillset">
     <div className='skillset-area'>
       <h1>Skillset</h1>
       <div className='skillset-box'>
@@ -33,6 +35,7 @@ const Skillset = () => {
         ))}
       </div>
     </div>
+    </Element>
   )
 }
 
