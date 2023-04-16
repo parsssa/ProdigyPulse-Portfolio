@@ -1,3 +1,6 @@
+import America from '../assets/united-states.png';
+import Italy from '../assets/italy.png';
+import Iran from '../assets/iran.png';
 import Telegram from '../assets/Telegram.jpg';
 import figma from '../assets/figma.png';
 import MS from '../assets/MS.png';
@@ -9,6 +12,8 @@ import google from '../assets/google.png';
 import java from '../assets/java.png';
 import JavaFx from '../assets/JavaFX.png';
 import translation from '../assets/translation.png';
+import content from '../assets/content.png';
+import youtube from '../assets/youtube.png';
 import react from '../assets/react.png';
 import Git from '../assets/git.jpg'
 
@@ -20,6 +25,9 @@ import TehranLandscape from '../assets/TehranLandscape.JPG';
 
 
 export {
+  America,
+  Italy, 
+  Iran,
   Telegram,
   figma,
   MS,
@@ -31,6 +39,8 @@ export {
   java,
   JavaFx,
   translation,
+  content, 
+  youtube,
   react,
   Git
 };

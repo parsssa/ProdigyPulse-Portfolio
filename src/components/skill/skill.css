@@ -19,17 +19,32 @@
  margin-bottom: auto;
 }
 
+.skill-box-text{
+    word-wrap: normal;
+    text-align: center;
+    padding: 1rem;
+}
+
 .skill-box-image img{
  width: 100%;
  height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .skill-box{
         width: 10rem;
         height: auto;
         margin: 2rem 1rem;
     }
   }
+
+  @media (max-width: 500px) {
+    .skill-box{
+        width: 8rem;
+        height: auto;
+        margin: 1rem 1rem;
+    }
+  }
+
 
   

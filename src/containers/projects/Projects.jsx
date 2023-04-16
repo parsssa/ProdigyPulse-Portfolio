@@ -11,7 +11,7 @@ const data = [
   {
     title: "The Blog",
     image: webDevPic,
-    description: "A blue-colored slice of the Internet for ME, me and... ME. You are welcome too, of course. The tools used here were Figma (for designing) and React js (for implementation). Feel free to reach out if you are interested in starting your own web-development journey, I'd be glad to help.",
+    description: "A blue-colored slice of the Internet for ME, me and... ME. You are welcome too, of course. The tools used for the creation of this website were Figma (for design) and React js (for implementation). Feel free to reach out if you are interested in starting your own web-development journey, I'd be glad to help.",
   },
   {
     title: "Telegram FIRE NEWS BOT 24",

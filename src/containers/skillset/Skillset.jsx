@@ -1,21 +1,26 @@
 import React from 'react';
 import './skillset.css';
 import { Skill } from '../../components/index.js';
-import {Telegram,Git,figma,MS,FrontEnd,python,Maven,google,java,JavaFx,translation,react} from '../index.js';
+import {America, Italy, Iran, Telegram,Git,figma,MS,FrontEnd,python,Maven,google,java,JavaFx,translation, content, youtube, react} from '../index.js';
 
 const skillsArray = [
-  { img: react, text: 'React' },
-  { img: Git, text: 'Git' },
-  { img: JavaFx, text: 'JavaFx' },
-  { img: FrontEnd, text: 'FrontEnd' },
-  { img: figma, text: 'Figma' },
-  { img: translation, text: 'Translation' },
+  { img: America, text: 'English' },
+  { img: Italy, text: 'Italian' },
+  { img: Iran, text: 'Persian' },
+  { img: translation, text: 'Content Translation' },
+  { img: content, text: 'Content Creation' },
+  { img: youtube, text: 'Social Media Management' },
+  { img: MS, text: 'MS Office' },
   { img: google, text: 'Google Workspace' },
-  { img: Telegram, text: 'Telegram' },
-  { img: Maven, text: 'Maven' },
-  { img: java, text: 'Java' },
+  { img: figma, text: 'Figma' },
   { img: python, text: 'Python' },
-  { img: MS, text: 'MS' },
+  { img: Git, text: 'Git' },
+  { img: react, text: 'React' },
+  { img: FrontEnd, text: 'FrontEnd' },
+  { img: Telegram, text: 'Telegram API' },
+  { img: java, text: 'Java' },
+  { img: Maven, text: 'Maven' },
+  { img: JavaFx, text: 'JavaFx' },
 ];
 
 const Skillset = () => {
