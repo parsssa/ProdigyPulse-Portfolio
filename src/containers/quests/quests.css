@@ -118,10 +118,19 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .quests-box {
+    width: 90%;
+  }
+
+  .quests-box img {
+    width: 70%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .quests-nav-arrow::after {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
-

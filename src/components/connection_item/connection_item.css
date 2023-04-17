@@ -1,39 +1,95 @@
 .connection_item-box {
-    margin: 3rem 3rem;
-    width: 15rem;
-    height: auto;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* changed from 'flex-start' */
-    align-items: center;
+  margin: 3rem 3rem;
+  width: 17rem;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden; /* to stop hover effect from overflowing outside connection_item */
+}
+
+.connection_item-box-image {
+  height: 20%;
+  width: 70%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.connection_item-box-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 70%; /* Updated to match image container */
+}
+
+.connection_item-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  transition: transform 0.7s ease-out;
+  transform-origin: bottom center;
+}
+
+.connection_item-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 70, 248, 0.379);
+  transition: height 0.5s ease-out;
+  transform-origin: bottom center;
+  z-index: -1;
+}
+
+.connection_item-link:hover {
+  transform: translateY(-5px);
+  color: white;
+}
+
+.connection_item-link:hover::before {
+  height: 100%;
+}
+
+.connection_item-box-text p{
+  text-align: center;
+  word-wrap: normal;
+}
+@media (max-width: 800px) {
+  .connection_item-box-text p {
+    font-size: 12px;
+    line-height: 1.2;
   }
-  
+}
+@media (max-width: 768px) {
+  .connection_item-box {
+    width: 8rem;
+    height: 9rem;
+    margin: 1rem;
+  }
+
   .connection_item-box-image {
-    height: 20%;
-    width: 70%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: auto;
+    width: 50%;
+    height: auto;
   }
-  
+
   .connection_item-box-text {
+    width: 100%;
+  }
+
+  .connection_item-box-text p {
+    font-size: 10px;
     text-align: center;
   }
-  
-  @media (max-width: 768px) {
-    .connection_item-box {
-      width: 8rem;
-      height: 9rem;
-      margin: 1rem;
-    }
-  
-    .connection_item-box-text p {
-      font-size: 10px;
-      text-align: center;
-    }
-  }
-  
+}

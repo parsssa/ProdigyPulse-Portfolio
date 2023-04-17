@@ -6,7 +6,7 @@ import { Element } from 'react-scroll';
 
 
 const connectionsArray = [
-  { img: LinkedIn, text: 'Parsa Bagheri' },
+  { img: LinkedIn, text: 'Parsa Bagheri' , link:'https://www.linkedin.com/in/parsa-bagheri-243419226'},
   { img: Email, text: 'parsssa13@gmail.com' },
   { img: Telegram, text: '@parsssa13' },
 ];
@@ -19,7 +19,7 @@ const Connections = () => {
       <h1>Connections</h1>
       <div className='connections-box'>
       {connectionsArray.map((connection, index) => (
-          <Connection_item key={index} img={connection.img} text={connection.text} />
+          <Connection_item key={index} img={connection.img} text={connection.text} link={connection.link}/>
         ))}
       </div>
     </div>

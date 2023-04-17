@@ -1,15 +1,14 @@
-
 .container {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- margin-bottom: -17rem;
- z-index: 0;
-}
-
-.image-container {
- margin-top: -5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -17rem;
+  z-index: 0;
+ }
+ 
+ .image-container {
+  margin-top: -5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,51 +16,61 @@
   width: 100%;
   height: auto; 
   z-index: 0;
-}
-
-.image-container img {
- width: 80%;
- height: auto;
- z-index: 0;
-}
-
-
-.text-container {
- display: flex;
- flex-direction: column;
- justify-content: center;
- text-align: center;
- align-items: center;
- background: rgba(255, 255, 255, 0.9);
- width: fit-content;
- padding-right: 1rem;
- padding-left: 1rem;
- margin-top: 2rem;
- z-index: 2;
-}
-
-.text-container h1 {
- font-family: 'Source Code Pro', monospace;
- font-style: normal;
- font-weight: 700;
- font-size: 70px;
- line-height: 92px;
- text-align: center;
- letter-spacing: 0.05em;
- color: #000000;
-}
-
-@media (max-width: 1110) {
-  .container{
-    margin-bottom: 1rem;
-  }
-    .title-container img {
-      max-width: 100%;
-      height: auto;
-    }
-   
-    .title-container h1 {
-      font-size: 32px;
-    }
-}
-
+ }
+ 
+ .image-container img {
+  width: 80%;
+  height: auto;
+  z-index: 0;
+  object-fit: contain; /* add this property */
+ }
+ 
+ .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  width: fit-content;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 2rem;
+  z-index: 2;
+ }
+ 
+ .text-container h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 92px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+ }
+ 
+ @media (max-width: 1110px) {
+   .container {
+     margin-bottom: 1rem;
+   }
+   .image-container img {
+     max-width: 100%;
+   }
+   .text-container h1 {
+     font-size: 32px;
+   }
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .container {
+     margin-bottom: 1rem;
+   }
+   .image-container img {
+     width: 100%;
+   }
+   .text-container h1 {
+     font-size: 32px;
+   }
+ }
+ 
