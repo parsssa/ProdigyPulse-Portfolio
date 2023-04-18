@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './quests.css';
 import youtubeQuest from '../../assets/oldYoutubeChannel.png';
+import journal from '../../assets/journal.jpg'
 import { Element } from 'react-scroll';
 
 
@@ -13,14 +14,9 @@ const data = [
     description: "Back in March 2020, completely stuck at home and quarantined, I decided to try my luck uploading content on Youtube. This content was what inspired me at the time, and despite the limited tools and knowledge I had, I look back at it and smile. One video almost reached 2 thousand views! Unfortunately, after my last year of highschool I no longer found the time to upload and the growth of the channel slowed to a stop. I plan on uploading another video soon, this way I can learn some video-editing magic and perhaps end the channel in style",
   },
   {
-    title: "quest 2",
-    // image: questPhoto,
-    description: "Vestibulum at ipsum vel nulla commodo commodo. Nulla facilisi. Nulla sed augue elit. Maecenas eget diam consequat, sodales tellus vitae, bibendum lorem. ",
-  },
-  {
-    title: "quest 3",
-    // image: questPhoto,
-    description: "Fusce volutpat lobortis tortor, vel pharetra nibh fermentum non. Vestibulum quis lorem lectus. Integer vel quam nec enim consequat tempus.",
+    title: "Journal",
+    image: journal,
+    description: "I've been keeping a Journal from early 2013, scattered across various notebooks. Of course, the first entries are very basic and my writing has greatly improved over the years, but it's nice to have written records of my life. Perhaps one day I will edit them all into a single book and publish it for the world to read.",
   },
 ];
 

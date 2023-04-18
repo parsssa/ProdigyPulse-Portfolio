@@ -3,6 +3,8 @@ import { useState } from 'react';
 import './projects.css';
 import botPhoto1 from '../../assets/botProject1.png';
 import botPhoto2 from '../../assets/botProject2.png';
+import IcyHot from '../../assets/IcyHotContent.png'
+import IcyHot2 from '../../assets/IcyHotContent2.png'
 import AnalisiBulgari from '../../assets/AnalisiBulgari.png'
 import webDevPic from '../../assets/figmaDesign.png'
 import { Element } from 'react-scroll';
@@ -24,6 +26,16 @@ const data = [
     title: "Telegram FIRE NEWS BOT 24",
     image: botPhoto1,
     description: "The Admins of FIRE NEWS 24 can control the settings of the bot and user activity from a dedicated GUI panel, developed in JavaFX. Coding this gave me chronic depression.",
+  },
+  {
+    title: "Content for Mr. IcyHot llc.",
+    image: IcyHot,
+    description: "Mr. IcyHot llc is a local HVAC copmany operating in Gaithersburg Maryland. This project involved writing the information for their website pages, detailing out their customer contracts, and answering cutomers on social media platforms such as Yelp",
+  },
+  {
+    title: "Content for Mr. IcyHot llc.",
+    image: IcyHot2,
+    description: "After extensive study of the DMV area HVAC industry and rival contractors' approach to marketing, I planned out a short-term Company Strategy for Mr. Icy Hot llc. This was a 4 step guide on how to gain local recognition in one month, launching a website and tactically posting on a picked handful of social media platforms",
   },
   {
     title: "Bulgari Corporate Strategy Analysis",

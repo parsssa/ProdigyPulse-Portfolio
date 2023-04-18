@@ -66,16 +66,18 @@
   text-align: center;
   word-wrap: normal;
 }
+
 @media (max-width: 800px) {
   .connection_item-box-text p {
-    font-size: 12px;
-    line-height: 1.2;
+    font-size: 14px; /* Increased font size for better legibility */
+    line-height: 1.5; /* Increased line height for better legibility */
   }
 }
+
 @media (max-width: 768px) {
   .connection_item-box {
     width: 8rem;
-    height: 9rem;
+    height: 11rem;
     margin: 1rem;
   }
 
@@ -91,5 +93,9 @@
   .connection_item-box-text p {
     font-size: 10px;
     text-align: center;
+  }
+  
+  .connection-container {
+    flex-wrap: wrap;
   }
 }

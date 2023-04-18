@@ -79,8 +79,12 @@
     }
 }
 
-@media (max-width: 746px) {
+@media (max-width: 900px) {
+    .footer-area-image{
+        display: none;
+    }
     .footer-area-bottom{
+        position: relative;
         height: fit-content;
     }
     .footer-area-bottom p{

@@ -61,7 +61,7 @@
 @media (max-width: 1100px) {
   .navbar {
     position: static;
-    margin-top: 20rem;
+    margin-top: 10rem;
     height: 10rem; 
     margin-bottom: 8rem;
   }
@@ -87,5 +87,14 @@
 
   .navbar-link{
     background-color:white;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    position: static;
+    margin-top: 5rem;
+    height: 15rem; 
+    margin-bottom: 8rem;
   }
 }
