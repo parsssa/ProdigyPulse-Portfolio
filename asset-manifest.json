@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/ProdigyPulse/static/css/main.37689d1e.css",
+    "main.js": "/ProdigyPulse/static/js/main.8047f3aa.js",
+    "static/media/TehranLandscape.JPG": "/ProdigyPulse/static/media/TehranLandscape.2b6922c37ac62f6bfb1f.JPG",
+    "static/media/journal.jpg": "/ProdigyPulse/static/media/journal.faa1fb78b65a53c93c91.jpg",
+    "static/media/bioPhoto.jpg": "/ProdigyPulse/static/media/bioPhoto.76b6f457a8961274661f.jpg",
+    "static/media/oldYoutubeChannel.png": "/ProdigyPulse/static/media/oldYoutubeChannel.e4a274e2a9c21fc554e7.png",
+    "static/media/figmaDesign.png": "/ProdigyPulse/static/media/figmaDesign.8bd2d6c814a190308f34.png",
+    "static/media/enahncedMathDepImage.jpg": "/ProdigyPulse/static/media/enahncedMathDepImage.3ebbbf2a736c708eb07a.jpg",
+    "static/media/IcyHotContent2.png": "/ProdigyPulse/static/media/IcyHotContent2.97693c809cd56a98257b.png",
+    "static/media/botProject2.png": "/ProdigyPulse/static/media/botProject2.aa104e9da8cdbad230cf.png",
+    "static/media/linkedin.png": "/ProdigyPulse/static/media/linkedin.b1bebb391a157454d569.png",
+    "static/media/IcyHotContent.png": "/ProdigyPulse/static/media/IcyHotContent.c51dfe7ef6402e2f8a1d.png",
+    "static/media/translation.png": "/ProdigyPulse/static/media/translation.541f8c174f5326892db3.png",
+    "static/media/AnalisiBulgari.png": "/ProdigyPulse/static/media/AnalisiBulgari.111e1655e791f9e97fe0.png",
+    "static/media/google.png": "/ProdigyPulse/static/media/google.fdfa0dcfcd863c25a1f8.png",
+    "static/media/botProject1.png": "/ProdigyPulse/static/media/botProject1.59f5408c9b591c6140e4.png",
+    "static/media/FrontEnd.jpg": "/ProdigyPulse/static/media/FrontEnd.877c556109c8ebec1b61.jpg",
+    "static/media/figma.png": "/ProdigyPulse/static/media/figma.5bd4c63df46b1e1b3f3b.png",
+    "static/media/MS.png": "/ProdigyPulse/static/media/MS.8b7e7c4e883ea3ca9308.png",
+    "static/media/python.png": "/ProdigyPulse/static/media/python.643111fa843eca5d8bbd.png",
+    "static/media/java.png": "/ProdigyPulse/static/media/java.90b9b98b1d4dce9ffc29.png",
+    "static/media/youtube.png": "/ProdigyPulse/static/media/youtube.51266397bdae078b2ba4.png",
+    "static/media/react.png": "/ProdigyPulse/static/media/react.f1e2874ad9c4eb1ddedc.png",
+    "static/media/email.png": "/ProdigyPulse/static/media/email.b06f1e4cb49aafb05c5d.png",
+    "static/media/content.png": "/ProdigyPulse/static/media/content.4a17f83b1a31f4b638d6.png",
+    "static/media/Telegram.jpg": "/ProdigyPulse/static/media/Telegram.43754b0cf728af182e6f.jpg",
+    "static/media/iran.png": "/ProdigyPulse/static/media/iran.e711c2d6353a03fc94bb.png",
+    "static/media/Maven.png": "/ProdigyPulse/static/media/Maven.5d9b37a2a5ce0d29048a.png",
+    "static/media/united-states.png": "/ProdigyPulse/static/media/united-states.348322a7eb6fa906d005.png",
+    "static/media/git.jpg": "/ProdigyPulse/static/media/git.64e83780d18ba4a9c989.jpg",
+    "index.html": "/ProdigyPulse/index.html",
+    "main.37689d1e.css.map": "/ProdigyPulse/static/css/main.37689d1e.css.map",
+    "main.8047f3aa.js.map": "/ProdigyPulse/static/js/main.8047f3aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37689d1e.css",
+    "static/js/main.8047f3aa.js"
+  ]
+}
