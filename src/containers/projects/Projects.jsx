@@ -7,11 +7,17 @@ import IcyHot from '../../assets/IcyHotContent.png'
 import IcyHot2 from '../../assets/IcyHotContent2.png'
 import AnalisiBulgari from '../../assets/AnalisiBulgari.png'
 import webDevPic from '../../assets/figmaDesign.png'
+import BaghdadAI from '../../assets/Baghdad-AI.png'
 import { Element } from 'react-scroll';
 
 
 // an array that contains img+description for each project
 const data = [
+  {
+    title: "Baghdad-AI",
+    image: BaghdadAI,
+    description: "In our research project, Baghdad-AI, led by students from the University of Bologna - Seyed Parsa Bagheri, Massimo Andrés Camacho, and Jishan Rahman - we've been diving into the exciting world of artificial intelligence (AI) in archaeology. Inspired by the earlier work of Professors Marco Roccetti and Nicolò Marchetti, who showed how neural networks could spot archaeological sites in the Mesopotamian plain, we focused on tweaking our model. Our recent efforts involved spicing up CORONA images and adding Negative Sampling to make our model sharper. The result? A cool blend of AI and traditional archaeology methods, bringing us closer to nailing archaeological site detection with a fresh and effective approach.",
+  },
   {
     title: "The Blog",
     image: webDevPic,
